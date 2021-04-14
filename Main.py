@@ -30,7 +30,7 @@ def main():
 
     #imgOriginalScene  = cv2.imread("LicPlateImages/9.png")               # open image
 
-    path = glob.glob(sys.argv[1] + "/*.*")
+    path = glob.glob("./test_datas/*.*")
     for file in path:
         imgOriginalScene=cv2.imread(file)
         imgOriginalScene=cv2.resize(imgOriginalScene,(800,600))

@@ -18,3 +18,17 @@ python -m pip install --upgrade pip
 pip install opencv-python
 
 ```
+
+### Run
+
+### Test on images
+
+```
+python Main.py
+```
+
+### Test on video
+
+```
+python video.py
+```
