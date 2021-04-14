@@ -8,16 +8,13 @@ python v3.7
 
 ### update pip
 
-````
+```
 python -m pip install --upgrade pip
 ```
 
 ### install open-cv
 
-````
-
-pip install opencv-python
-
 ```
+pip install opencv-python
 
 ```
